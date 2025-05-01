@@ -69,4 +69,6 @@ Para ejecutar la aplicación tenemos que escribir en el terminal:
 
 Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponemos localhost:3000 en la barra de busqueda del navegador y nos debería redirigir a la página home de Shared Courses.
 
+![sh home](images/sh_home.PNG)
+
 Para más información acerca de su uso, existe un manual de usuario en la memoria con unos usuarios de prueba para facilitar el recorrido de las funcionalidades de la aplicación.
