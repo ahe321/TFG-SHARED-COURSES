@@ -71,4 +71,6 @@ Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponem
 
 ![sh home](images/sh_home.PNG)
 
-Para más información acerca de su uso, existe un manual de usuario en la memoria con unos usuarios de prueba para facilitar el recorrido de las funcionalidades de la aplicación.
+Para navegar por la aplicación se puede crear un nuevo usuario mediante el registro o usar el usuario de prueba siguiente:
+Correo: sara@ucm.es
+Contraseña: 123456
