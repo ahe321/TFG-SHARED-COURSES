@@ -71,8 +71,16 @@ Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponem
 
 ![sh home](images/sh_home.PNG)
 
-Para navegar por la aplicación se puede crear un nuevo usuario mediante el registro o usar el usuario de prueba siguiente:
+Para navegar por la aplicación se puede crear un nuevo usuario mediante el registro o usar los siguientes usuarios de prueba:
+
+Usuario Normal:
 
 Correo: sara@ucm.es
 
 Contraseña: 123456
+
+Usuario Administrador:
+
+Correo: ahe@ucm.es
+
+Contraseña: 1234
