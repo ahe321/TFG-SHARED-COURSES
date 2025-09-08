@@ -74,6 +74,7 @@ La primera key se obtiene del panel principal de stripe, la segunda al ejecutar 
 `STRIPE_SECRET_KEY=sk_test_51S195jFbk1kOsus5cnF12ncPRWwE3DX7W6pk1aETbb2l3l9VEEnOGYb2afKefhjSyiA7VIs0ac6YJ6Vbqa5hMwVJ00ilRbLEmp`
 `STRIPE_WEBHOOK_SECRET=whsec_0636a7549a4aa84acf13e1d16794afea3c0f98474a0a503ab32cf84718ce2238`
 
+Esto se deja igual:
 `FRONTEND_URL=http://localhost:3000`
 
 Para ejecutar el webhook debemos descargar [Stripe CLI](https://docs.stripe.com/stripe-cli/install?install-method=windows)
