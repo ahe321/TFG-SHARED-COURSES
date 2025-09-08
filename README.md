@@ -69,15 +69,21 @@ Para ejecutar la aplicación tenemos que escribir en el terminal:
 
 Por último, como la aplicación funciona con stripe es necesario tener una cuenta de la plataforma y modificar las keys del archivo .env:
 
-`STRIPE_SECRET_KEY=sk_test_51S195jFbk1kOsus5cnF12ncPRWwE3DX7W6pk1aETbb2l3l9VEEnOGYb2afKefhjSyiA7VIs0ac6YJ6Vbqa5hMwVJ00ilRbLEmp`
-`FRONTEND_URL=http://localhost:3000`
-`STRIPE_WEBHOOK_SECRET=whsec_0636a7549a4aa84acf13e1d16794afea3c0f98474a0a503ab32cf84718ce2238`
+La primera key se obtiene del panel principal de stripe, la segunda al ejecutar el webhook como se verá en los pasos siguientes.
 
-Y descargar [Stripe CLI](https://docs.stripe.com/stripe-cli/install?install-method=windows)
+`STRIPE_SECRET_KEY=sk_test_51S195jFbk1kOsus5cnF12ncPRWwE3DX7W6pk1aETbb2l3l9VEEnOGYb2afKefhjSyiA7VIs0ac6YJ6Vbqa5hMwVJ00ilRbLEmp`
+`STRIPE_WEBHOOK_SECRET=whsec_0636a7549a4aa84acf13e1d16794afea3c0f98474a0a503ab32cf84718ce2238`
+`FRONTEND_URL=http://localhost:3000`
+
+Para ejecutar el webhook debemos descargar [Stripe CLI](https://docs.stripe.com/stripe-cli/install?install-method=windows)
 
 Abrir Stripe CLI dentro de una consola de comandos y ejecutar:
 `stripe login`
 `stripe listen -forward-too localhost:3000\webhook`
+
+![stripe image](images/stripe_image.png)
+
+Hay que estar auntenticado en stripe y al ejecutar estos dos comandos, se ejecutará el webhook y nos dará la key correspondiente.
 
 Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponemos localhost:3000 en la barra de busqueda del navegador y nos debería redirigir a la página home de Shared Courses.
 
