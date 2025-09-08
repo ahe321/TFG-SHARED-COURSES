@@ -67,6 +67,12 @@ Para ejecutar la aplicación tenemos que escribir en el terminal:
 
 `node app.js`
 
+Por último, como la aplicación funciona con stripe es necesario tener una cuenta de la plataforma y modificar las keys del archivo .env:
+
+`STRIPE_SECRET_KEY=sk_test_51S195jFbk1kOsus5cnF12ncPRWwE3DX7W6pk1aETbb2l3l9VEEnOGYb2afKefhjSyiA7VIs0ac6YJ6Vbqa5hMwVJ00ilRbLEmp
+FRONTEND_URL=http://localhost:3000
+STRIPE_WEBHOOK_SECRET=whsec_0636a7549a4aa84acf13e1d16794afea3c0f98474a0a503ab32cf84718ce2238`
+
 Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponemos localhost:3000 en la barra de busqueda del navegador y nos debería redirigir a la página home de Shared Courses.
 
 ![sh home](images/sh_home.PNG)
