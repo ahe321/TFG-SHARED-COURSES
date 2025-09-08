@@ -75,6 +75,10 @@ Por último, como la aplicación funciona con stripe es necesario tener una cuen
 
 Y descargar [Stripe CLI](https://docs.stripe.com/stripe-cli/install?install-method=windows)
 
+Abrir Stripe CLI dentro de una consola de comandos y ejecutar:
+`stripe login`
+`stripe listen -forward-too localhost:3000\webhook`
+
 Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponemos localhost:3000 en la barra de busqueda del navegador y nos debería redirigir a la página home de Shared Courses.
 
 ![sh home](images/sh_home.PNG)
