@@ -81,7 +81,7 @@ Abrir Stripe CLI dentro de una consola de comandos y ejecutar:
 `stripe login`
 `stripe listen -forward-too localhost:3000\webhook`
 
-![stripe image](images/stripe_image.png)
+![stripe image](images/stripe_img.png)
 
 Hay que estar auntenticado en stripe y al ejecutar estos dos comandos, se ejecutará el webhook y nos dará la key correspondiente.
 
