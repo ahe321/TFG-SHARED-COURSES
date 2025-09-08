@@ -73,7 +73,7 @@ Por último, como la aplicación funciona con stripe es necesario tener una cuen
 `FRONTEND_URL=http://localhost:3000`
 `STRIPE_WEBHOOK_SECRET=whsec_0636a7549a4aa84acf13e1d16794afea3c0f98474a0a503ab32cf84718ce2238`
 
-Y descargar [Stripe CLI]([https://www.apachefriends.org/es/index.html](https://docs.stripe.com/stripe-cli/install?install-method=windows))
+Y descargar [Stripe CLI](https://docs.stripe.com/stripe-cli/install?install-method=windows)
 
 Y listo ya tenemos todo preparado para empezar a usar la aplicación, solo ponemos localhost:3000 en la barra de busqueda del navegador y nos debería redirigir a la página home de Shared Courses.
 
